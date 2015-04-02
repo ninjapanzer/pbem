@@ -1,0 +1,13 @@
+# A sample Bowerfile
+# Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
+
+# asset 'bootstrap'
+
+assets_path "assets/javascripts"
+
+asset "story_viewer", github: "ninjapanzer/story_viewer_react_flux#1.0.0"
+asset "jquery"
+asset "backbone"
+asset "flux"
+asset "react"
+asset "underscore"
